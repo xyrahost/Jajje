@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+#products, #contact {
+    margin-bottom: 2rem;
+}
+
+.product {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+.whatsapp-button, .whatsapp-group-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.whatsapp-button:hover, .whatsapp-group-button:hover {
+    background-color: #128C7E;
+}
